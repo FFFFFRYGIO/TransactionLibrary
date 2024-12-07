@@ -1,0 +1,15 @@
+field_group;first_position;last_position;data_type;field_name;is_allowed_to_print;is_allowed_to_change;default_value
+header;1;2;str;id;false;false;01
+header;3;30;str;name;true;true;
+header;31;60;str;surname;true;true;
+header;61;90;str;patronymic;true;true;
+header;91;120;str;address;true;true;
+transaction;1;2;str;id;false;false;02
+transaction;3;8;str;counter;true;false;
+transaction;9;20;int;amount;true;true;
+transaction;21;23;str;currency;true;true;
+transaction;24;120;str;reserved;false;false;
+footer;1;2;str;id;false;false;03
+footer;3;8;int;total_counter;true;false;
+footer;9;20;int;control_sum;true;false;
+footer;21;120;str;reserved;false;false;
