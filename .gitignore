@@ -2,5 +2,7 @@
 .idea
 
 # pycache
-__pychache__/
-library/__pychache__/
+/__pycache__
+/library/__pycache__
+/library/file_structure/__pycache__
+/utils/__pycache__
