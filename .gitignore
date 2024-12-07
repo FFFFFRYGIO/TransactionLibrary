@@ -1,1 +1,6 @@
+# PyCharm IDE files
 .idea
+
+# pycache
+__pychache__/
+library/__pychache__/
